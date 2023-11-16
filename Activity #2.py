@@ -53,20 +53,20 @@ def enter_data():
         name_result = tkinter.Label(result, text="YOU ARE", font='Arial, 12', bg='#FAEBD7')
         name_result.grid(row= 1, column =2, padx=30, pady=15)
 
-        firstname_result_input = tkinter.Label(result, text = fullname, font=("Arial Bold", 20), bg='#FAEBD7')
+        firstname_result_input = tkinter.Label(result, text = fullname, font=("Georgia Bold", 30), bg='#FAEBD7')
         firstname_result_input.grid(row= 2, column =2, padx=30, pady=5)
 
         age_result = tkinter.Label(result, text="YOUR AGE IS", font='Arial, 12', bg='#FAEBD7')
         age_result.grid(row= 3, column =2, padx=10, pady=5)
 
-        age_result_input = tkinter.Label(result, text= age_final, font=("Arial Bold", 20), bg='#FAEBD7')
+        age_result_input = tkinter.Label(result, text= age_final, font=("Georgia Bold", 30), bg='#FAEBD7')
         age_result_input.grid(row= 4, column =2, padx=30, pady=5)
 
         address_result = tkinter.Label(result, text="YOU LIVE IN", font='Arial, 12',bg='#FAEBD7')
         address_result.grid(row= 5, column =2, padx=30, pady=5)
 
 
-        address_result_input = tkinter.Label(result, text=address, font=("Arial Bold", 20),bg='#FAEBD7')
+        address_result_input = tkinter.Label(result, text=address, font=("Georgia Bold", 30),bg='#FAEBD7')
         address_result_input.grid(row= 6, column =2, padx=30, pady=5)
 
         
@@ -117,7 +117,7 @@ age_spinbox.grid(row=3, column=1)
 address_label = tkinter.Label(user_info_frame, text="Address", font='Arial, 12', bg='#FFEFDB')
 address_label.grid(row=4, column=1)
 
-barangay_label = tkinter.Label(user_info_frame, text="Barangay", font='Arial, 15', bg='#FFEFDB')
+barangay_label = tkinter.Label(user_info_frame, text="Barangay", font='Arial, 11', bg='#FFEFDB')
 city_or_municipality_label = tkinter.Label(user_info_frame, text="City/Municipality", font='Arial, 11', bg='#FFEFDB')
 state_or_province_label = tkinter.Label(user_info_frame, text="State/Province", font='Arial, 11', bg='#FFEFDB')
 barangay_label.grid(row=5, column=0)
